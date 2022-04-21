@@ -1,0 +1,139 @@
+body {
+    margin:0;
+}
+
+.contenedor {
+    background-color: #00e0ff;
+    width: 90vw;
+    min-height: 90vw;
+    margin:5%;
+    border-radius: 15px;
+}
+
+.titulo-principal {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.MyInput-description {
+    border-radius: 5px;
+    background-color: #dfe;
+    border: 0;
+    width: 87%;
+    height: 17vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 9px;
+    font-family: arial;
+}
+
+.MyInput-title {
+    border-radius: 5px;
+    background-color: #dfe;
+    border: 0;
+    width: 87%;
+    height: 2vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    resize: none;
+    padding: 9px;
+}
+
+.boton-guardar {
+    background-color: #1b99ae;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 40px;
+    display: block;
+}
+
+.NoteCard {
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.texto-modal {
+    color:rgb(58, 58, 58);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.NoteCard h1, h1.titulo-modal {
+    color: #1999ae;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.NoteCard p, p.parrafo-modal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 100px;
+}
+
+.botones-NoteCard {
+    display: flex;
+}
+
+.boton-NoteCard-borrar, 
+.boton-NoteCard-abrir {
+    background-color: #1b99ae;
+    border: none;
+    color: white;
+    padding: 7px 6px;
+    font-size: 11px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.inputs-titulo-texto {
+    text-align: center;
+}
+
+.modal-background {
+      background: #414141bd;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.modal {
+      background: #fff;
+      width: 70vw;
+      height: 30%;
+      border-radius: 10px;
+}
+
+.boton-NoteCard-cerrar {
+    background-color: #1b99ae;
+    border: none;
+    color: white;
+    padding: 7px 6px;
+    font-size: 11px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
